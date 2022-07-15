@@ -1,0 +1,365 @@
+.body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.img_logo {
+  max-width: 100px;
+  max-height: 100px;
+  padding-top: 8px;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  padding-top: 14px;
+}
+.li_home{
+    border: 1px outset black;
+    padding: 5%;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+.li_sub{
+    padding-top: 3px;
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+}
+.relative
+{
+    position: relative;
+}
+.img_mycountry
+{
+    width: 100%; height: 100%" 
+}
+.div_mycountry
+{
+    position: absolute;
+          top: 40%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+}
+.textalign_center
+{
+    text-align: center;
+}
+.HeadingText
+{
+    position: relative;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 4%;
+    
+}
+.textalign_center_headingtext
+{
+    margin: 5%;
+    text-align: center;
+}
+.Explore_button
+{
+    text-align: center;
+    margin-left: 43%;
+    background-color: greenyellow;
+    padding: 13px;
+    padding-left: 33px;
+    padding-right: 33px;
+    text-decoration: none;
+    font: bold;
+    transition: 0.5s;
+}
+.Explore_button:hover{
+        background-color: darkgreen;
+        color: #fff;
+}
+.midlines
+{
+    margin-top: 4%;
+    height:2px;
+    border-width:0;
+    color:#f0f0f0;
+    background-color:#f0f0f0;
+}
+.flex 
+{
+    display: flex;
+}
+
+.services{
+    width: 100%;
+
+    text-align:center;
+    padding-top: 30px;
+}
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content:space-between;
+}
+
+.services-col {
+    flex-basis: 23.5%;
+    margin-bottom: 30px;
+}
+.services-col img{
+    max-width:100%;
+}
+
+.services-col h4{
+    padding-top: 4%;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+}
+.services-col p{
+    padding-top: 4%;
+    font-size: small;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7);
+    
+
+}
+.AboutUs_Padding
+{
+    padding-left: 2%;
+}
+.AboutUs_P1
+{
+    padding-left: 2%;
+    font: bold; padding-top: 10%; color: gray;
+}
+.AboutUs_P2
+{
+    padding-left: 2%;padding-bottom: 6%; color: gray; width: 80%;
+}
+.AboutUs_Button
+{
+    margin-left: 2%;padding: 13px; font: bold; border: 1px outset gray;
+    transition: 0.5s;
+}
+.AboutUs_Button:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+.AboutUs_imgDiv
+{
+    width: 70%;
+}
+.AboutUs_img
+{
+    height: 70vh; padding-top: 10%; 
+}
+.Questions_img
+{
+    max-width: 107%; max-height: 100%; padding-top: 15px;
+}
+.Questions_mainDiv
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Questions_h1
+{
+    text-align: center; 
+    font-size: xxx-large;
+}
+.Questions_button
+{
+    margin-top: 10%;
+    text-align: center;
+    margin-left: 27.5%;
+    background-color: #ffd936;
+    padding: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    font: bold;
+    text-decoration: none;
+    transition: 0.5s;
+    border-radius: 5%;
+}
+.Questions_button:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+.Questions_button_div
+{
+    padding-top: 10%;
+}
+
+
+.Table_div
+{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.Table_div p{
+    MIN-width: 10%;
+}
+Table
+{
+       margin-top: 2%;
+        font-family: arial, sans-serif;
+        border-collapse:collapse;
+        width: 100%;
+}
+td
+{
+    text-align: left;
+    padding: 1.5%;
+}
+   tr
+   {
+    border-bottom: 1px solid rgb(219, 213, 213);
+   } 
+  tr:first-child
+  {
+    border-bottom: 2px solid rgb(14, 13, 13)
+  }
+th
+{
+    
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 1.8%;
+
+}
+form
+{
+    width: 100%;
+}
+.forms
+{
+   padding-bottom: 5%;
+}
+input{
+    font-size: 13px;
+    width: 150%;
+    padding: 12px;
+    border-radius:4px;
+    border-width: 1.5px;
+    border-color: rgba(0, 0, 0, 0.4);
+    margin-top: 2%;
+    margin-bottom:3%;
+
+}
+#Individual{
+    width: auto;
+    
+}
+#Organization{
+    width: auto;
+    
+}
+#Interest{
+    font-size: 13px;
+    width: 158%;
+    padding: 12px;
+    border-radius:4px;
+    border-width: 1.5px;
+    border-color: rgba(0, 0, 0, 0.4);
+    margin-top: 2%;
+}
+ #bio{
+    width:156%;
+    padding-bottom:30%;
+ }
+.about-you-margin{
+    margin-top:2%;
+    padding-bottom: 2%;
+}
+
+#btnS{
+    background-color: greenyellow;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    color: #000;
+    font-weight: 600;
+    margin-top: 2%;
+    transition: 0.5s;
+}
+#btnS:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+#btnValidate{
+    background-color: greenyellow;
+    border: none;
+    padding: 3%;
+    border-radius: 5%;
+    color: #000;
+    font-weight: 600;
+    margin-top: 2%;
+    transition: 0.5s;
+}
+#btnValidate:hover{
+    background-color: darkgreen;
+    color: #fff;
+}
+ 
+
+.form_img{
+    margin-top: 11%;
+    margin-bottom: 90px;
+    padding:2%;
+    background-color: #e3e3e3;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+.form_img img{
+    max-width: 500px;
+    border-radius: 10px;
+}
+.form_img p{
+    
+    font-weight:400;
+    max-width: 500px;
+}
+
+.footer{
+    margin-top: 5%;
+    background-color: #eeeeee;
+    
+}
+.footer h1{
+    font-size: large;
+    margin-left: 10%;
+    padding-top: 3%;
+
+}
+.footer p{
+   
+    margin-left: 10%;
+
+}
+.footer a{
+    
+    padding-top: 1%;
+    margin-left: 10%;
+    color: rgb(115, 201, 172);
+}
+.bottomline
+{
+    margin-top: 5%;
+    opacity: 0.8;
+    background-color: #000;
+
+}
+.bottomline p{
+    color: #fff;
+    text-align: center;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
